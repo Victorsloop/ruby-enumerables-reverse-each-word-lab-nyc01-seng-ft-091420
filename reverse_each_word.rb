@@ -1,4 +1,4 @@
-def reverse_each_world(sentence)
+def reverse_each_word(sentence)
   rsentence = []
   sentence.split.collect do |word|
     rsentence << word.reverse 
