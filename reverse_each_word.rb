@@ -3,5 +3,5 @@ def reverse_each_world(sentence)
   sentence.split.collect do |word|
     rsentence << word.reverse 
   end 
-  reverse.join(" ")
+  rsentence.join(" ")
 end 
